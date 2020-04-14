@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Planet Tour!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="blackhole.ico">
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.hotspot.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class = "container-fluid" style="background-color:#000000;">        
+        <div class = "text-center" style = "border-style:solid; color:white;">
+            <h1 style="text-shadow: 2px 2px 4px #000000;">Welcome To Din's Milky Way Planet Tours!</h1>
+            	<p>On this very exciting tour, we will explore the Sun, and all of the planets that make up our solar system!
+               	   Get ready!
+				</p>
+		</div>
+		<div id="example-admin">
+			<div class="panel-body">
+				<h4 style = color:white; class = "text-center">Click on the planets to learn more about them!</h4>
+					<div id="theElement-0">
+						<img src="images/solarsystem.jpg">
+					</div>
+			</div>
+		</div>
+    </div>
+<script type="text/javascript" src="js/jquery.hotspot.js"></script>
+<script type="text/javascript">
+	$("#theElement-0").hotspot(
+		{
+			mode: 'display',
+			data: 
+			[
+				//Sun
+				{"x":3.5,"y":58,"cssclass":hotspot2,"Title":"Sun","Message":"Delhi, India's capital territory, is a massive metropolitan area in the country's north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people. Nearby is Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and spice stalls."},
+				//Mercury
+				{"x":13.8,"y":55.5,"Title":"Mercury","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry."},
+				//Venus
+				{"x":16.98,"y":54.3,"Title":"Venus","Message":"Delhi, India's capital territory, is a massive metropolitan area in the country's north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people. Nearby is Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and spice stalls."},
+				//Earth
+				{"x":20.55,"y":53.2,"Title":"Earth","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry."},
+				//Mars
+				{"x":24.49,"y":52.24,"Title":"Mars","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry."},
+				//Jupiter
+				{"x":42,"y":47,"Title":"Jupiter","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry."},
+				//Saturn
+				{"x":59.12,"y":43,"Title":"Saturn","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry."},
+				//Uranus
+				{"x":72,"y":37,"Title":"Uranus","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry."},
+				//Neptune
+				{"x":82.6,"y":32.5,"Title":"Neptune","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry."},
+				
+		],
+		interactivity: "hover"
+		});
+</script>
+</body>
+</html>

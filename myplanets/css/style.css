@@ -1,0 +1,21 @@
+#theElement-0, 
+#theElement-a, 
+#theElement-b {
+	position: relative;
+}
+
+img {
+	width: 100%;
+}
+
+body {
+	background: #efefef;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+.panel-body {
+	padding: 15px 15px 50px;
+}
